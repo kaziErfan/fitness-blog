@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+/* Variable Styles */
+
+:root{
+    --primary-color: #FFFFFF;
+    --secondary-color:#E6533C;
+    --main-bg-color:#000000;
+
+}
+
 /* Shared Styles */
 .font-lavishly {
     font-family: "Lavishly Yours", "cursive";
