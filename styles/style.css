@@ -12,9 +12,10 @@
 }
 
 /* Shared Styles */
-.font-lavishly {
-    font-family: "Lavishly Yours", "cursive";
+.font-imperial {
+    font-family: "Imperial Script", "cursive";
     font-style: normal;
+    font-weight: 400;
 }
 
 body,
