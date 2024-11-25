@@ -40,15 +40,34 @@ a{
 }
 
 /* Navbar Styles */
+#menu-home{
+    font-weight: 600;
+    padding: .5rem 1.25rem;
+    border-radius: 2rem;
+    background-color: var(--secondary-color);
+}
 .navbar{
     color: var(--primary-color);
     justify-content: space-around;
+    align-items: center;
     margin-top: 3.5rem;
     margin-bottom: 2rem;
+}
+.nav-logo > a{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
+.menu-bar{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.5rem;
+    padding: .75rem;
 }
 .menu-bar ul{
     gap: 3rem;
 }
 .menu-bar ul li{
     list-style: none;
+    font-size: 1.125rem;
+    font-weight: 400;
 }
