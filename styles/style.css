@@ -26,6 +26,7 @@ button {
 
 body {
     background-color: var(--main-bg-color);
+    color: var(--primary-color);
 }
 a{
     text-decoration: none;
@@ -71,3 +72,20 @@ a{
     font-size: 1.125rem;
     font-weight: 400;
 }
+/* Banner-section */
+.banner-section{
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-left-content{
+    width: 35%;
+}
+.banner-title{
+    font-size: 4.75rem;
+    font-weight: 900;
+    line-height: 1.2;
+}
+.special{
+    
+}
+
