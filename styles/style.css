@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+.hidden{
+   display: none;
+}
 /* Variable Styles */
 
 :root {
@@ -73,6 +75,12 @@ a{
     font-size: 1.125rem;
     font-weight: 400;
 }
+
+/* Navbar Responsive Styles*/
+@media screen and (max-width: 576px) {
+    
+}
+
 /* Banner-section */
 .banner-section{
     justify-content: space-around;
