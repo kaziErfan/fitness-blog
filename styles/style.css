@@ -87,6 +87,7 @@ a{
     }
 }
 
+
 /* Banner-section */
 .banner-section{
     justify-content: space-around;
@@ -123,4 +124,24 @@ a{
     font-size: 1.125rem;
     font-weight: 600;
 }
-
+.video-count{
+    padding: 1.25rem 1.5rem;
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    align-items: center;
+    gap: .75rem;
+}
+.ellipse{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+.view-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: .5rem;
+}
+.view-details{
+    opacity: 0.65;
+}
