@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.hidden{
-   display: none;
+
+.hidden {
+    display: none;
 }
+
 /* Variable Styles */
 
 :root {
@@ -31,46 +33,53 @@ body {
     background-color: var(--main-bg-color);
     color: var(--primary-color);
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--primary-color);
 }
 
-.display-flex{
+.display-flex {
     display: flex;
 }
-.display-grid{
+
+.display-grid {
     display: grid;
 }
 
 /* Navbar Styles */
-#menu-home{
+#menu-home {
     font-weight: 600;
     padding: .5rem 1.25rem;
     border-radius: 2rem;
     background-color: var(--secondary-color);
 }
-.navbar{
+
+.navbar {
     color: var(--primary-color);
     justify-content: space-around;
     align-items: center;
     margin-top: 3.5rem;
     margin-bottom: 2rem;
 }
-.nav-logo > a{
+
+.nav-logo>a {
     font-size: 2.25rem;
     font-weight: 800;
     color: var(--secondary-color);
 }
-.menu-bar{
+
+.menu-bar {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 2.5rem;
     padding: .75rem;
 }
-.menu-bar ul{
+
+.menu-bar ul {
     gap: 3rem;
 }
-.menu-bar ul li{
+
+.menu-bar ul li {
     list-style: none;
     font-size: 1.125rem;
     font-weight: 400;
@@ -78,10 +87,11 @@ a{
 
 /* Navbar Responsive Styles*/
 @media screen and (max-width: 576px) {
-    .menu-bar{
+    .menu-bar {
         display: none;
     }
-    .menu-bar-icon{
+
+    .menu-bar-icon {
         display: block;
         font-size: 1.5rem;
     }
@@ -89,25 +99,29 @@ a{
 
 
 /* Banner-section */
-.banner-section{
+.banner-section {
     justify-content: space-around;
     align-items: center;
 }
-.banner-left-content{
+
+.banner-left-content {
     width: 35%;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4.75rem;
     font-weight: 900;
     line-height: 1.2;
     margin-bottom: 1.75rem;
 }
-.banner-description{
+
+.banner-description {
     opacity: 0.5;
     line-height: 1.5;
     margin-bottom: 1.75rem;
 }
-.banner-left-btn{
+
+.banner-left-btn {
     padding: 1rem 2.5rem;
     background-color: var(--secondary-color);
     border: none;
@@ -116,7 +130,8 @@ a{
     font-size: 1.125rem;
     font-weight: 600;
 }
-.banner-right-btn{
+
+.banner-right-btn {
     padding: 1rem 2.5rem;
     background-color: transparent;
     border: 1px solid #FFFFFF;
@@ -124,24 +139,47 @@ a{
     font-size: 1.125rem;
     font-weight: 600;
 }
-.video-count{
+.banner-image{
+    position: relative; 
+}
+.video-count {
     padding: 1.25rem 1.5rem;
-    background: rgba(48, 48, 48, 0.54);
     border-radius: 12px;
     align-items: center;
     gap: .75rem;
+    backdrop-filter: blur(14px);
+    background: rgba(98, 97, 97, 0.2);
+    position: absolute;
+    bottom: 80px;
+    left: -100px;
 }
-.ellipse{
+.workout-video-count{
+    padding: 1rem 1.125rem;
+    border-radius: 12px;
+    align-items: center;
+    gap: .75rem;
+    backdrop-filter: blur(14px);
+    background: rgba(98, 97, 97, 0.2);
+    position: absolute;
+    top: 150px;
+    right: -55px
+}
+
+.ellipse {
     height: 2.5rem;
     width: 2.5rem;
     background-color: var(--secondary-color);
     border-radius: 50%;
 }
-.view-title{
+
+.view-title {
     font-size: 1.5rem;
     font-weight: 900;
-    margin-bottom: .5rem;
+    margin-bottom: .125rem;
+    letter-spacing: 1px;
 }
-.view-details{
+
+.view-details {
     opacity: 0.65;
+    font-size: 0.813rem;
 }
