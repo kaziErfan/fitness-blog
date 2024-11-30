@@ -49,6 +49,13 @@ a {
 .display-grid {
     display: grid;
 }
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.section-info{
+    font-size: 0.875rem;
+}
 
 /* Navbar Styles */
 #menu-home {
@@ -218,7 +225,7 @@ a {
         width: 75%;
     }
     .banner-btn{
-        gap: .825rem;
+        gap: .0.75rem;
     }
     .banner-left-btn{
         display: none;
