@@ -6,7 +6,8 @@
 .hidden {
     display: none;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -42,6 +43,10 @@ a {
     color: var(--primary-color);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .display-flex {
     display: flex;
 }
@@ -49,12 +54,24 @@ a {
 .display-grid {
     display: grid;
 }
-.section-title{
+
+.section-margin {
+    margin: 6.25rem 0;
+}
+.section-info{
+    width: 40%;
+    margin: 0 auto;
+}
+.section-title {
     font-size: 3rem;
     font-weight: 900;
 }
-.section-info{
+
+.section-description {
+    margin-top: 0.875rem;
     font-size: 0.875rem;
+    opacity: .5;
+    line-height: 1.6;
 }
 
 /* Navbar Styles */
@@ -130,12 +147,14 @@ a {
     line-height: 1.5;
     margin-bottom: 1.75rem;
 }
-.banner-btn{
+
+.banner-btn {
     display: flex;
     gap: 1rem;
 }
 
-.banner-left-btn, .mobile-btn {
+.banner-left-btn,
+.mobile-btn {
     padding: 1rem 2.5rem;
     background-color: var(--secondary-color);
     border: none;
@@ -152,12 +171,15 @@ a {
     font-size: 1.125rem;
     font-weight: 600;
 }
-.banner-image{
+
+.banner-image {
     position: relative;
 }
-.banner-image img{
+
+.banner-image img {
     object-fit: cover;
 }
+
 .video-count {
     padding: 1.25rem 1.5rem;
     border-radius: 12px;
@@ -169,7 +191,8 @@ a {
     bottom: 80px;
     left: -100px;
 }
-.workout-video-count{
+
+.workout-video-count {
     padding: 1rem 1.125rem;
     border-radius: 12px;
     align-items: center;
@@ -201,44 +224,56 @@ a {
 }
 
 /*Banner Section Responsive for Mobile */
-@media screen and (max-width: 576px){
-    .banner-section{
+@media screen and (max-width: 576px) {
+    .banner-section {
         flex-direction: column;
         align-items: center;
         padding: 1.25rem;
     }
+
     .banner-left-content {
         width: 100%;
-        
+
         margin: 3rem 0;
     }
-    .video-count{
+
+    .video-count {
         bottom: 12.5rem;
         left: 0.625rem;
     }
-    .workout-video-count{
+
+    .workout-video-count {
         top: 3rem;
         right: 0;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 2.25rem;
         width: 75%;
     }
-    .banner-btn{
+
+    .banner-btn {
         gap: .0.75rem;
     }
-    .banner-left-btn{
+
+    .banner-left-btn {
         display: none;
     }
-    .mobile-btn, .banner-right-btn{
+
+    .mobile-btn,
+    .banner-right-btn {
         display: block;
         font-size: 1rem;
         padding: 1rem 2rem;
     }
-    .view-title{
+
+    .view-title {
         font-size: 1.5rem;
     }
-    .view-details{
+
+    .view-details {
         font-size: .625rem;
     }
 }
+
+/* Habit Section Styles */
