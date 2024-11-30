@@ -56,10 +56,10 @@ a {
 }
 
 .section-margin {
-    margin: 6.25rem 0;
+    margin: 6.25rem 12.5rem;
 }
 .section-info{
-    width: 40%;
+    width: 55%;
     margin: 0 auto;
 }
 .section-title {
@@ -127,12 +127,12 @@ a {
 
 /* Banner-section */
 .banner-section {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .banner-left-content {
-    width: 35%;
+    width: 45%;
 }
 
 .banner-title {
@@ -277,3 +277,25 @@ a {
 }
 
 /* Habit Section Styles */
+.habit-info{
+    margin-top: 3.25rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+.habit-card{
+    
+}
+.habit-image img{
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+.card-title{
+    font-size: 1.125rem;
+    margin-top: 1.5rem;
+}
+.card-info{
+    font-size: 0.875rem;
+    opacity: 0.5;
+    margin-top: .5rem;
+    line-height: 1.4;
+}
