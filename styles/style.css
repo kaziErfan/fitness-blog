@@ -6,6 +6,9 @@
 .hidden {
     display: none;
 }
+img{
+    max-width: 100%;
+}
 
 /* Variable Styles */
 
@@ -120,13 +123,16 @@ a {
     line-height: 1.5;
     margin-bottom: 1.75rem;
 }
+.banner-btn{
+    display: flex;
+    gap: 1rem;
+}
 
-.banner-left-btn {
+.banner-left-btn, .mobile-btn {
     padding: 1rem 2.5rem;
     background-color: var(--secondary-color);
     border: none;
     border-radius: 2.625rem;
-    margin-right: 1rem;
     font-size: 1.125rem;
     font-weight: 600;
 }
@@ -140,7 +146,10 @@ a {
     font-weight: 600;
 }
 .banner-image{
-    position: relative; 
+    position: relative;
+}
+.banner-image img{
+    object-fit: cover;
 }
 .video-count {
     padding: 1.25rem 1.5rem;
@@ -182,4 +191,47 @@ a {
 .view-details {
     opacity: 0.65;
     font-size: 0.813rem;
+}
+
+/*Banner Section Responsive for Mobile */
+@media screen and (max-width: 576px){
+    .banner-section{
+        flex-direction: column;
+        align-items: center;
+        padding: 1.25rem;
+    }
+    .banner-left-content {
+        width: 100%;
+        
+        margin: 3rem 0;
+    }
+    .video-count{
+        bottom: 12.5rem;
+        left: 0.625rem;
+    }
+    .workout-video-count{
+        top: 3rem;
+        right: 0;
+    }
+    .banner-title{
+        font-size: 2.25rem;
+        width: 75%;
+    }
+    .banner-btn{
+        gap: .825rem;
+    }
+    .banner-left-btn{
+        display: none;
+    }
+    .mobile-btn, .banner-right-btn{
+        display: block;
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+    .view-title{
+        font-size: 1.5rem;
+    }
+    .view-details{
+        font-size: .625rem;
+    }
 }
