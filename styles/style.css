@@ -332,6 +332,7 @@ a {
     border-radius: 18px;
 }
 
+/* Running Club Section Responsive styles */
 @media screen and (max-width:576px) {
     .running-club{
         flex-direction: column;
@@ -345,6 +346,12 @@ a {
         display: flex;
         flex-direction: column;
     }
+}
+
+/* BMI Section Styles */
+.bmi-info{
+  width: 40%;
+  margin: 0 auto;
 }
 
 
