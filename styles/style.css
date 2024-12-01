@@ -58,10 +58,12 @@ a {
 .section-margin {
     margin: 6.25rem 12rem;
 }
-.section-info{
+
+.section-info {
     width: 55%;
     margin: 0 auto;
 }
+
 .section-title {
     font-size: 3rem;
     font-weight: 900;
@@ -69,6 +71,7 @@ a {
 
 .section-description {
     margin-top: 0.875rem;
+    margin-bottom: 2rem;
     font-size: 0.875rem;
     opacity: .5;
     line-height: 1.6;
@@ -277,23 +280,27 @@ a {
 }
 
 /* Habit Section Styles */
-.habit-info{
+.habit-info {
     margin-top: 3.25rem;
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem;
 }
-.habit-card{
+
+.habit-card {
     width: 230px;
 }
-.habit-image img{
+
+.habit-image img {
     border-radius: 50%;
     border: 2px solid #FFFFFF;
 }
-.card-title{
+
+.card-title {
     font-size: 1.125rem;
     margin-top: 1.5rem;
 }
-.card-info{
+
+.card-info {
     font-size: 0.875rem;
     opacity: 0.5;
     margin-top: .5rem;
@@ -302,11 +309,28 @@ a {
 
 /* Habit section responsive styles */
 @media screen and (max-width:576px) {
-    .habit-info{
+    .habit-info {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
+/* Running Club Section Styles */
+.running-club {
+    gap: 10rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    padding: 2rem;
+}
+.club-left-content{
+    width: 70%;
+}
+.club-right-content{
+    width: 90%;
+}
+.club-right-content > img{
+    border-radius: 18px;
+}
 
 
 
@@ -324,13 +348,15 @@ a {
 
 /* Shared Section responsive style */
 @media screen and (max-width: 576px) {
-    .section-info{
+    .section-info {
         width: 100%;
     }
-    .section-margin{
+
+    .section-margin {
         margin: 0 1rem;
     }
-    .section-title{
+
+    .section-title {
         font-size: 2rem;
     }
 }
