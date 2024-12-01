@@ -77,6 +77,17 @@ a {
     line-height: 1.6;
 }
 
+/* Shared Btn */
+.banner-left-btn,
+.mobile-btn, .club-section-btn {
+    padding: 1rem 2.5rem;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 2.625rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
 /* Navbar Styles */
 #menu-home {
     font-weight: 600;
@@ -155,17 +166,6 @@ a {
     display: flex;
     gap: 1rem;
 }
-
-.banner-left-btn,
-.mobile-btn {
-    padding: 1rem 2.5rem;
-    background-color: var(--secondary-color);
-    border: none;
-    border-radius: 2.625rem;
-    font-size: 1.125rem;
-    font-weight: 600;
-}
-
 .banner-right-btn {
     padding: 1rem 2.5rem;
     background-color: transparent;
@@ -332,6 +332,20 @@ a {
     border-radius: 18px;
 }
 
+@media screen and (max-width:576px) {
+    .running-club{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1.5rem;
+    }
+    .club-right-content, .club-left-content{
+        width: 100%;
+    }
+    .club-left-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 
