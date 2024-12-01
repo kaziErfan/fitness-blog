@@ -56,7 +56,7 @@ a {
 }
 
 .section-margin {
-    margin: 6.25rem 12.5rem;
+    margin: 6.25rem 12rem;
 }
 .section-info{
     width: 55%;
@@ -283,7 +283,7 @@ a {
     gap: 2.5rem;
 }
 .habit-card{
-    
+    width: 230px;
 }
 .habit-image img{
     border-radius: 50%;
@@ -298,4 +298,39 @@ a {
     opacity: 0.5;
     margin-top: .5rem;
     line-height: 1.4;
+}
+
+/* Habit section responsive styles */
+@media screen and (max-width:576px) {
+    .habit-info{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Shared Section responsive style */
+@media screen and (max-width: 576px) {
+    .section-info{
+        width: 100%;
+    }
+    .section-margin{
+        margin: 0 1rem;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
 }
