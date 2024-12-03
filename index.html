@@ -121,10 +121,11 @@
                     regardless of income or access to a gym.</p>
             </div>
             <!-- BMI Chart/Form -->
-             <div class="bmi-content">
+            <div class="bmi-content display-flex">
                 <div class="bmi-list">
                     <h4 class="bmi-list-title">BMI Calculator Chart</h4>
                     <div class="bmi-chart">
+                        <!-- BMI Chart Table -->
                         <table class="bmi-chart-table">
                             <tr>
                                 <th>BMI</th>
@@ -145,7 +146,27 @@
                         </table>
                     </div>
                 </div>
-             </div>
+                <div class="bmi-calculate">
+                    <h4 class="bmi-list-title">Calculate your BMI</h4>
+                    <p class="bmi-description">We believe fitness should be accessible to everyone, everywhere,
+                        regardless of income or access to a gym.</p>
+                    <form action="" class="bmi-form display-grid">
+                        <input type="number" name="" placeholder="Height/cm" id="">
+                        <input type="number" name="" placeholder="Weight/kg" id="">
+                        <input type="number" name="" placeholder="Age" id="">
+                        <select name="" id="">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div class="form-activity-field">
+                            <select name="" id="">
+                                <option value="male">Select an activity factor</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 

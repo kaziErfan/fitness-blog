@@ -370,12 +370,20 @@ a {
     margin-top: 5.5rem;
     background-color: rgb(34, 34, 34);
     padding: 3rem 12rem;
+    gap: 11rem;
+}
+
+.bmi-list {
+    width: 40%;
 }
 
 .bmi-list-title {
     font-size: 1.75rem;
     font-weight: 900;
-    margin-bottom: 3rem;
+}
+
+.bmi-chart {
+    margin-top: 3rem;
 }
 
 .bmi-chart-table {
@@ -398,6 +406,44 @@ td {
 
     font-size: 0.875rem;
     opacity: 0.5;
+}
+
+.bmi-description {
+    font-size: 0.875rem;
+    margin-top: 14px;
+    opacity: 0.5;
+    width: 85%;
+    margin-bottom: 2rem;
+}
+
+.bmi-form {
+    grid-template-columns: auto auto;
+    gap: 12px;
+}
+
+.form-activity-field {
+    grid-column: 1 / span 2;
+}
+
+.form-activity-field > select {
+    width: 100%;
+}
+
+.form-field {}
+
+.bmi-form input,
+select {
+    padding: 0.75rem 2.5rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    outline: none;
+}
+
+.bmi-form ::placeholder, select{
+    font-size: 1rem;
+    color: var(--primary-color);
+    opacity: 0.6;
 }
 
 
