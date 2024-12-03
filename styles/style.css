@@ -424,12 +424,14 @@ td {
 .form-activity-field {
     grid-column: 1 / span 2;
 }
+.bmi-form > button{
+    width: 80%;
+    margin-top: 1rem;
+}
 
 .form-activity-field > select {
     width: 100%;
 }
-
-.form-field {}
 
 .bmi-form input,
 select {
