@@ -485,7 +485,22 @@ td {
     
 }
 
-
+/* Team Section Styles */
+.team-card{
+    width: 300px;
+}
+.team-card img{
+    border-radius: 18px;
+}
+.member-name{
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: .25rem;
+}
+.member-info{
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
 
 
 
