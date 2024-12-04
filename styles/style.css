@@ -233,7 +233,6 @@ a {
     .banner-section {
         flex-direction: column;
         align-items: center;
-        padding: 1.25rem;
     }
 
     .banner-left-content {
@@ -268,8 +267,8 @@ a {
     .mobile-btn,
     .banner-right-btn {
         display: block;
-        font-size: 1rem;
-        padding: 1rem 2rem;
+        font-size: 0.875rem;
+        padding: 1rem 1.5rem;
     }
 
     .view-title {
@@ -414,6 +413,7 @@ td {
     opacity: 0.5;
     width: 85%;
     margin-bottom: 2rem;
+    line-height: 1.5;
 }
 
 .bmi-form {
@@ -447,7 +447,36 @@ select {
     color: var(--primary-color);
     opacity: 0.6;
 }
-
+/* BMI Section Responsive for small devices */
+@media screen and (max-width: 576px) {
+    .bmi-info{
+        width: 90%;
+        margin: 2rem 1rem;
+    }
+    .bmi-content{
+        margin-top: 2rem;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 2.5rem;
+    }
+    .bmi-list{
+        width: 100%;
+    }
+    .bmi-form input, select{
+        padding: 12px 0 12px 12px;
+        width: 70%;
+    }
+    .bmi-form{
+        gap: 1rem;
+    }
+    .bmi-form input{
+        width: 95%;
+    }
+    .bmi-form > select{
+        width: 100%;
+    }
+    
+}
 
 
 
@@ -468,7 +497,7 @@ select {
     }
 
     .section-margin {
-        margin: 0 1rem;
+        margin: 3rem 1rem;
     }
 
     .section-title {
