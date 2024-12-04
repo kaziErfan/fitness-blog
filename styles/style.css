@@ -433,19 +433,26 @@ td {
     width: 100%;
 }
 
-.bmi-form input,
-select {
+.bmi-form input, select {
     padding: 0.75rem 2.5rem;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
     outline: none;
+}
+.bmi-form input{
+    font-size: 1rem;
+    color: var(--primary-color);
 }
 
 .bmi-form ::placeholder, select{
     font-size: 1rem;
     color: var(--primary-color);
     opacity: 0.6;
+}
+.bmi-form select option{
+    background-color: rgba(0, 0, 0, 0.8);
+    
 }
 /* BMI Section Responsive for small devices */
 @media screen and (max-width: 576px) {
