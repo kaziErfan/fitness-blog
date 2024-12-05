@@ -554,17 +554,17 @@ select {
 }
 
 /* News card Section Styles */
-.news-section{
+.news-cards{
     gap: 24px;
 }
-.news-card{
+.news-items{
     width: 21rem;
     background-color: var(--primary-color);
     color: var(--main-bg-color);
     border-radius: 18px;
     padding: 2rem 1.5rem;
 }
-.news-card .date{
+.news-items .date{
     border: 1px solid rgb(0, 0, 0, 0.3);
     padding: 8px 12px;
     border-radius: 12px;
@@ -589,6 +589,12 @@ select {
     font-weight: 600;
 }
 
+/* News Section Responsive Styles */
+@media screen and (max-width: 576px) {
+    .news-card-2, .news-card-3{
+        display: none;
+    }
+}
 
 
 
