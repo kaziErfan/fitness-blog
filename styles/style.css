@@ -424,103 +424,136 @@ td {
 .form-activity-field {
     grid-column: 1 / span 2;
 }
-.bmi-form > button{
+
+.bmi-form>button {
     width: 80%;
     margin-top: 1rem;
 }
 
-.form-activity-field > select {
+.form-activity-field>select {
     width: 100%;
 }
 
-.bmi-form input, select {
+.bmi-form input,
+select {
     padding: 0.75rem 2.5rem;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     outline: none;
 }
-.bmi-form input{
+
+.bmi-form input {
     font-size: 1rem;
     color: var(--primary-color);
 }
 
-.bmi-form ::placeholder, select{
+.bmi-form ::placeholder,
+select {
     font-size: 1rem;
     color: var(--primary-color);
     opacity: 0.6;
 }
-.bmi-form select option{
+
+.bmi-form select option {
     background-color: rgba(0, 0, 0, 0.8);
-    
+
 }
+
 /* BMI Section Responsive for small devices */
 @media screen and (max-width: 576px) {
-    .bmi-info{
+    .bmi-info {
         width: 90%;
         margin: 2rem 1rem;
     }
-    .bmi-content{
+
+    .bmi-content {
         margin-top: 2rem;
         flex-direction: column;
         padding: 1rem;
         gap: 2.5rem;
     }
-    .bmi-list{
+
+    .bmi-list {
         width: 100%;
     }
-    .bmi-form input, select{
+
+    .bmi-form input,
+    select {
         padding: 12px 0 12px 12px;
         width: 70%;
     }
-    .bmi-form{
+
+    .bmi-form {
         gap: 1rem;
     }
-    .bmi-form input{
+
+    .bmi-form input {
         width: 95%;
     }
-    .bmi-form > select{
+
+    .bmi-form>select {
         width: 100%;
     }
-    
+
 }
 
 
 /* Team Section Styles */
-.team-container{
+.team-container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     row-gap: 20px;
+    padding: 20px;
 }
-.team-card{
-    width: 350px;
-    height: 270px;
+
+.card-items {
     position: relative;
 }
-.team-card img{
+
+.member-image {
+    width: 21rem;
+    height: 16.875rem;
+}
+
+.member-image img {
     width: 100%;
     height: 100%;
     border-radius: 18px;
 }
-.team-info{
+
+.team-info {
     position: absolute;
     bottom: 20px;
     left: 20px;
 }
-.member-name{
+
+.member-name {
     font-size: 1.25rem;
     font-weight: 900;
     margin-bottom: .25rem;
 }
-.member-info{
+
+.member-info {
     font-size: 0.875rem;
     opacity: 0.5;
 }
 
+/* Team Section Responsive Styles */
+@media screen and (max-width:576px) {
+    .team-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px 0;
+    }
 
+    .member-image{
+        width: 260px;
+    }
+    
 
-
-
-
+}
 
 
 
