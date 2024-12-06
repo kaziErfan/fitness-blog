@@ -214,6 +214,11 @@ a {
     width: 2.5rem;
     background-color: var(--secondary-color);
     border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.ellipse > i{
+    font-size: 1.125rem;
 }
 
 .view-title {
