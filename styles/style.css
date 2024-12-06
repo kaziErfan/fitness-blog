@@ -596,6 +596,47 @@ select {
     }
 }
 
+/* Footer Section Styles */
+.footer-section{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4rem 0;
+}
+.footer-navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 12rem;
+}
+.footer-left{
+    width: 40%;
+}
+.footer-logo{
+    font-size: 4.375rem;
+    font-weight: 800;
+    color: var(--secondary-color);
+    font-style: italic;
+    margin-bottom: 1.25rem;
+}
+.footer-info{
+    font-size: 0.875rem;
+    opacity: 0.5;
+    line-height: 1.6;
+}
+.footer-menu-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.menu-links{
+    list-style: none;
+    margin-top: 2.5rem;
+    flex-direction: column;
+    gap: 16px;
+}
+.menu-links a {
+    font-size: 1.375rem;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
 
 
 
