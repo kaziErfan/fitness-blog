@@ -603,7 +603,6 @@ select {
 }
 .footer-navbar{
     justify-content: space-between;
-    align-items: center;
     margin: 0 12rem;
 }
 .footer-left{
@@ -635,6 +634,20 @@ select {
     font-size: 1.375rem;
     font-weight: 300;
     opacity: 0.5;
+}
+
+/* Footer Section Responsive Styles */
+
+@media screen and (max-width: 576px) {
+    .footer-navbar{
+        flex-direction: column;
+        margin: 0 1rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .footer-left{
+        width: 100%;
+    }
 }
 
 
