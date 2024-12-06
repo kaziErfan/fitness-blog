@@ -635,16 +635,16 @@ select {
     font-weight: 300;
     opacity: 0.5;
 }
-hr{
-    margin: 0 12rem;
+.footer-section hr{
+    margin: 4rem 12rem 2rem 12rem;
     opacity: 0.2;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+}
+.copyright-section{
+    margin: 0 12rem;
 }
 .copyright-section p{
     font-size: 1.25rem;
     opacity: 0.5;
-    margin: 0 12rem;
 }
 
 /* Footer Section Responsive Styles */
@@ -658,6 +658,16 @@ hr{
     }
     .footer-left{
         width: 100%;
+    }
+    .copyright-section{
+        margin: 0 1rem;
+    }
+    .footer-section hr{
+        margin: 2rem 1rem;
+    }
+    .copyright-section p{
+        font-size: 0.875rem;
+        text-align: left;
     }
 }
 
